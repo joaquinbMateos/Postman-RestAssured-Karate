@@ -1,0 +1,12 @@
+{
+  "bookingdates": {
+    "checkin": "2022-10-27",
+    "checkout": "2022-10-28"
+  } ,
+
+  "depositpaid": true,
+  "firstname": "joaquin",
+  "lastname": "mateos",
+  "roomid": 1,
+  "totalprice":0
+}

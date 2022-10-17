@@ -1,0 +1,3474 @@
+22:04:53.358 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:05:06.949 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:07.635 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room/
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:05:09.108 [main] DEBUG com.intuit.karate - response time in milliseconds: 1444
+1 < 200
+1 < Date: Fri, 14 Oct 2022 01:05:10 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=W30YMTExJAJwZAwHMhLJa59Zt7Y7nAWPTpMBn%2B34SQQlyAheXhBgFQHZ0RhoziA931mwotMfNDy%2Bqhdk4miRqB0PGiYCVTK8CAoOOBv%2Fp5Zy9BK0HMMKKykNHz8kHpsGbjBQimNNxTA%2BeyIgdA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 759c67b42888da8f-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+22:42:43.760 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:42:44.865 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:42:44.959 [main] ERROR com.intuit.karate - classpath:homework07/getRequest/getRequest.feature:4
+Given url 'https://automationintesting.online
+js failed:
+>>>>
+01: 'https://automationintesting.online
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:35 Missing close quote
+'https://automationintesting.online
+                                   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1344)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2373)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2292)
+- com.intuit.karate.core.ScenarioEngine.url(ScenarioEngine.java:365)
+
+classpath:homework07/getRequest/getRequest.feature:4
+22:43:24.486 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:43:25.621 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:43:32.276 [main] ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 6536 milliseconds for url: /room/
+22:43:32.277 [main] ERROR com.intuit.karate - classpath:homework07/getRequest/getRequest.feature:8
+When method get
+http call failed after 6536 milliseconds for url: /room/
+classpath:homework07/getRequest/getRequest.feature:8
+22:44:36.890 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:44:37.992 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:44:38.402 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:44:39.682 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:44:40.053 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+22:44:40.335 [main] DEBUG com.intuit.karate - response time in milliseconds: 279
+3 < 200
+3 < Date: Fri, 14 Oct 2022 01:44:41 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GJcmrTzTAn7AuxcczT%2FgQPirc5A0hcjMqalr5BknDiMYeZj1zcmEoQvz%2Btyjd7JckhnVN8Cm1UhNhcT3ilK4R4adWZytbnZtVedEiLblEdBICw%2FaHqCJ8Qr%2FZJ8095vdnt8PptYRgmxd5a7Mnw%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 759ca19a08678bff-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+22:52:29.276 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:52:30.357 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:52:30.712 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:52:31.611 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:52:31.924 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+22:52:32.190 [main] DEBUG com.intuit.karate - response time in milliseconds: 264
+3 < 200
+3 < Date: Fri, 14 Oct 2022 01:52:33 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JT%2FkBJ90%2BW%2Fh4%2FvEElnDiduRFz9hJM4u5BzdlOTAaOYiicNHiVo5hfuzHUsvZdWWY5Goml4coWsICNQClcQ2lTVt4maNAiayhJT%2FT5JP1sXdVLqvhKi7QggsxyfzsZ4WeManayN8VnrcZg5f6g%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 759cad1f6c8b221a-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+23:00:20.678 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:00:21.790 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:00:22.152 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:00:23.079 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+23:00:23.381 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+23:00:23.663 [main] DEBUG com.intuit.karate - response time in milliseconds: 280
+3 < 200
+3 < Date: Fri, 14 Oct 2022 02:00:24 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wusw6EFtBc8WfwYXgupf1qdaPIWzQSxkeSGr72fK1tMEzEQsieqofk%2BWx3S38C2gcYOCFpjozUckaICn4U%2B08YiflrOO%2FLTpUcKugX65ugohkRAsUMCyA71L5%2B5vffwdoWZBZq3%2BI3BadJBd4Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 759cb8a23ea8961a-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+23:00:24.453 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:00:24.464 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:00:24.796 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 333 milliseconds for url: https://automationintesting.online/room
+23:00:24.797 [main] ERROR com.intuit.karate - classpath:homework07/getRequest/responseMatcher.feature:9
+When method get
+http call failed after 333 milliseconds for url: https://automationintesting.online/room
+classpath:homework07/getRequest/responseMatcher.feature:9
+23:03:30.431 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:03:31.601 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:03:31.960 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:03:32.861 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+23:03:33.158 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+23:03:33.445 [main] DEBUG com.intuit.karate - response time in milliseconds: 281
+3 < 200
+3 < Date: Fri, 14 Oct 2022 02:03:34 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cwc3imLAg6wgHh%2F9lWIn3c20bwteDP2GdFwk4n2IEMGqgdusXjOhxFiDOFA7iD1b7VORufZ5dsjqz4LCSf15jaC5%2F%2BoZPxrl%2Bn%2BPuZQQ7FQU4%2Bl6CnMe9W3poUbakpHonuHYU57wMi47edleyA%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 759cbd445e1921c7-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+23:03:34.263 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:03:34.278 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:03:34.591 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 316 milliseconds for url: https://automationintesting.online/room
+23:03:34.592 [main] ERROR com.intuit.karate - classpath:homework07/getRequest/responseMatcher.feature:9
+When method get
+http call failed after 316 milliseconds for url: https://automationintesting.online/room
+classpath:homework07/getRequest/responseMatcher.feature:9
+23:04:36.600 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:04:37.724 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:04:38.071 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:04:38.970 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+23:04:39.295 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+23:04:39.558 [main] DEBUG com.intuit.karate - response time in milliseconds: 260
+3 < 200
+3 < Date: Fri, 14 Oct 2022 02:04:40 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dP5bG71eP9fbY6qsW%2Fp9QDf1Rzg0ade8OMzfpn1%2Fb8u%2F94NKR6yyoRGAj1u%2BfQf373tSu8ydeFUBCU6dcLEzXqdrQnlpFZz0HjXc%2F2zeWrwlrgM6xN%2BKDXxXRmaW2Lo8kTLaQo9EHX%2FLO%2FYPog%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 759cbee1ad1ddad9-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+23:04:40.322 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:04:40.327 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:04:40.638 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 312 milliseconds for url: https://automationintesting.online/room
+23:04:40.642 [main] ERROR com.intuit.karate - classpath:homework07/getRequest/responseMatcher.feature:9
+When method get
+http call failed after 312 milliseconds for url: https://automationintesting.online/room
+classpath:homework07/getRequest/responseMatcher.feature:9
+23:06:02.455 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:06:03.550 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:06:03.902 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:06:04.842 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+23:06:05.154 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+23:06:05.433 [main] DEBUG com.intuit.karate - response time in milliseconds: 277
+3 < 200
+3 < Date: Fri, 14 Oct 2022 02:06:06 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BGuZ1Dw0Bi0pIva3KZ9szKccEIuyjq2FwZyjcpk05aT2ygiRDAp66nhZGo18X%2BvXyTGV933lG%2BNmcN%2BZcc2nTUJJcs2bry3KAna7A00QBxDZ%2BKWFadwrxJWcz7cs0wkPf2v8Ao8Dt3NYmczXFg%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 759cc0fa6f6bdaf1-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+23:06:05.473 [main] INFO  com.intuit.karate - [print] {
+  "rooms": [
+    {
+      "roomid": 1,
+      "roomName": "101",
+      "type": "single",
+      "accessible": true,
+      "image": "https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg",
+      "description": "Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.",
+      "features": [
+        "TV",
+        "WiFi",
+        "Safe"
+      ],
+      "roomPrice": 100
+    }
+  ]
+}
+ 
+23:12:43.985 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:12:45.074 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:12:45.426 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:12:46.348 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+23:12:46.660 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+23:12:46.938 [main] DEBUG com.intuit.karate - response time in milliseconds: 276
+3 < 200
+3 < Date: Fri, 14 Oct 2022 02:12:48 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iGXd9RzDzjU%2FRf3TxumxTkEbjTkdSu0Xut3l0dIrN0Hgd9Nw66oje%2Bzg87gw7J9YPxzHmqyZKtqfohVmpY7KfTazBqGgQopBKJ4Q53e0yxDfdy5wWBBgqC9cMkISleQB31dfEPNqw6Vsj2tDuQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 759ccac7ecd16db3-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+23:12:46.976 [main] INFO  com.intuit.karate - [print] {
+  "rooms": [
+    {
+      "roomid": 1,
+      "roomName": "101",
+      "type": "single",
+      "accessible": true,
+      "image": "https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg",
+      "description": "Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.",
+      "features": [
+        "TV",
+        "WiFi",
+        "Safe"
+      ],
+      "roomPrice": 100
+    }
+  ]
+}
+ 
+18:41:36.301 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:41:37.869 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:41:38.707 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:41:40.405 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+18:41:40.929 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+18:41:41.213 [main] DEBUG com.intuit.karate - response time in milliseconds: 280
+3 < 200
+3 < Date: Fri, 14 Oct 2022 21:41:41 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UOEQGrncTLXnLVAGWaIVNcV5nrSBy0JAkL5iiJsUHgMCRVIWA%2F822oViOdS%2FGksU66u2E%2BptbIHJPwEx2xV0ijh6MJjClIlsD23CGfRaThBHYrQdzudfHy2DBQDn3vG6a3Pr5ZWLOkj3VS35xA%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 75a37b0489db09a6-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+18:41:41.261 [main] INFO  com.intuit.karate - [print] {
+  "rooms": [
+    {
+      "roomid": 1,
+      "roomName": "101",
+      "type": "single",
+      "accessible": true,
+      "image": "https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg",
+      "description": "Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.",
+      "features": [
+        "TV",
+        "WiFi",
+        "Safe"
+      ],
+      "roomPrice": 100
+    }
+  ]
+}
+ 
+20:55:13.748 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:55:22.280 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:55:23.981 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+20:55:26.401 [main] DEBUG com.intuit.karate - response time in milliseconds: 1996
+1 < 200
+1 < Date: Fri, 14 Oct 2022 23:55:26 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GKBwWPqtz4RR14XmqLBOo4kELxQb69zINRXtT4xTIWaW2c7EZwWAXq9f%2FNrCKBZVhXPbwKTfgdtEMgnmqUeSWq6afWtkqv0mRxWWpia1vgPIDQybpNHqZFSDw%2B%2B%2B780IGg3ZroUW%2B30UUp6s2Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a43ef0faf367d5-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=IYJXDrvLUM97WyRN; Domain=automationintesting.online
+
+
+20:55:26.664 [main] INFO  com.intuit.karate - [print]  
+21:14:04.186 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:14:09.290 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:14:10.353 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+21:14:11.831 [main] DEBUG com.intuit.karate - response time in milliseconds: 1403
+1 < 200
+1 < Date: Sat, 15 Oct 2022 00:14:12 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pmTQnF3Q3LF4nA1Perhvu1QB85pUKn7JqhBiCjENalv1UqoaKLAnHgTxr2zy6JijcgU%2Bok9%2Frjlp6ehly3kjPbs7Nr6DZyKEUHYjxbWD8FfixEXM8zuAQgc%2FGJoXIGLdWGy7BSF4snfDvppsew%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a45a6d89d6dad1-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=LqwbIY8QcNimVRlH; Domain=automationintesting.online
+
+
+21:14:11.888 [main] ERROR com.intuit.karate - classpath:homework07/getToken.feature:11
+* def token = response.Set-Cookie
+js failed:
+>>>>
+01: response.Set-Cookie
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Cookie" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:homework07/getToken.feature:11
+21:27:55.603 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:27:56.709 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:27:57.159 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+21:27:58.097 [main] DEBUG com.intuit.karate - response time in milliseconds: 929
+1 < 200
+1 < Date: Sat, 15 Oct 2022 00:27:58 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Qfwv8ayMr0zwEo4k3ct9meJlmw%2BVtsMTxJE1KrOdAHEjHXulJSojH%2Ba0uXfXwmb9CCZzqvvg3Ry%2FhUCd9eJ66uef1pUEkpF0Aedlk4p9XdowNjGAdOFG%2BRb%2Bx%2F%2FeWUZdKWZhKOUuApI21vtTxg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a46e9a6fce9ab9-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=LUPkXSCa7eOGt7dI; Domain=automationintesting.online
+
+
+21:27:58.113 [main] INFO  com.intuit.karate - [print] null 
+21:31:26.174 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:31:27.254 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:31:27.701 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+21:31:28.577 [main] DEBUG com.intuit.karate - response time in milliseconds: 868
+1 < 200
+1 < Date: Sat, 15 Oct 2022 00:31:29 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=k8KZFShhyo3bGXPgeD08fF7giHR3ncHHwIenynLmKnwnHy3eijFW2aO1j7UNn7P903oAavY53CMUyf9qLASXyQANzeVPJPlXLxYIU5apevFFDSiwWzAItIVpGX%2F5bYbvkxVevVSqPB9L6umW%2BQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a473be0f6367d4-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=MM0BAVG6KH57CnoO; Domain=automationintesting.online
+
+
+21:31:28.603 [main] ERROR com.intuit.karate - classpath:homework07/getToken.feature:11
+* def token = responseHeaders['Set-Cookies'][0]
+js failed:
+>>>>
+01: responseHeaders['Set-Cookies'][0]
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "0" from undefined
+- <js>.:program(Unnamed:1)
+
+classpath:homework07/getToken.feature:11
+21:38:29.670 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:38:34.934 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:38:36.120 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+21:38:37.681 [main] DEBUG com.intuit.karate - response time in milliseconds: 1485
+1 < 200
+1 < Date: Sat, 15 Oct 2022 00:38:38 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kQ2JMFo%2FFbU%2FekunPnjPnS9y9MoyGZuIAmFhjOdA5wpqA0KdpKFgjarBwzYVBtkszy%2BFv%2B8cmqRnuxOkylFHq9KYU3t7WitDOTusVbbVtq9Ykf8Dgs7EgY4yMWiED5oLgEPAQGBVfae%2B4ri1xg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a47e378ab4220f-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=jGvT4fGMmaCDZBlu; Domain=automationintesting.online
+
+
+21:38:37.724 [main] INFO  com.intuit.karate - [print] {
+  "token": {
+    "path": null,
+    "domain": "automationintesting.online",
+    "name": "token",
+    "max-age": -9223372036854775808,
+    "httponly": false,
+    "secure": false,
+    "value": "jGvT4fGMmaCDZBlu",
+    "wrap": false
+  }
+}
+ 
+21:41:28.625 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:41:29.770 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:41:30.214 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+21:41:31.084 [main] DEBUG com.intuit.karate - response time in milliseconds: 859
+1 < 200
+1 < Date: Sat, 15 Oct 2022 00:41:31 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=K7fMqsZPdNCntwl9tjuUxaDdYnllmzkzZNZYski50E3WZoMzVaV2aaSMYxUEAstAPjznCHxXDLxY9zBnhED8VITZLHDkyIyTDInIMZQHysuvAYzKjLyyKuhI4ja1bDdJQwr6mVFBGf6m4ieJHg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a48273eed821fd-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=gBdyx5ieYtjtvSZg; Domain=automationintesting.online
+
+
+21:41:31.104 [main] INFO  com.intuit.karate - [print] [
+  "token=gBdyx5ieYtjtvSZg; Domain=automationintesting.online"
+]
+ 
+21:55:37.920 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:55:39.067 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:55:39.272 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:7
+* def body = read(data/resources/booking.json)
+js failed:
+>>>>
+01: read(data/resources/booking.json)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "data" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:homework07/postRequest.feature:7
+22:02:22.920 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:02:24.043 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:02:24.127 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:7
+* def body = read(/resources/booking.json)
+js failed:
+>>>>
+01: read(/resources/booking.json)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:23 Unsupported RegExp flag: b
+read(/resources/booking.json)
+                       ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1344)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2373)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2292)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1412)
+
+classpath:homework07/postRequest.feature:7
+22:03:22.965 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:03:24.045 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:24.156 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:7
+* def body = read(./resources/booking.json)
+js failed:
+>>>>
+01: read(./resources/booking.json)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:5 Expected an operand but found .
+read(./resources/booking.json)
+     ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1344)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2373)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2292)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1412)
+
+classpath:homework07/postRequest.feature:7
+22:04:10.465 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:04:11.644 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:04:11.727 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:7
+* def body = read(booking.json)
+js failed:
+>>>>
+01: read(booking.json)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "booking" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:homework07/postRequest.feature:7
+22:04:42.132 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:04:43.242 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:04:44.872 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+22:04:47.074 [main] DEBUG com.intuit.karate - response time in milliseconds: 1834
+1 < 200
+1 < Date: Sat, 15 Oct 2022 01:04:47 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ojkqPoAuaRd4e2XCKU9aZo6QBHqogNmui5Wd9XYBxLUSJC%2F1oZcESczgMWDKNoHh%2B7QyYGONU9dLAFDKZBttkJyGV40WYSk0NuuAp7Cep9owm5M%2F8rM205cWhxB8gtgoWJr1cHv%2B8x%2F2aNV8%2Bg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4a4871a7a8deb-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=50T5y1mS7keKd5cU; Domain=automationintesting.online
+
+
+22:04:47.146 [main] INFO  com.intuit.karate - [print] [
+  "token=50T5y1mS7keKd5cU; Domain=automationintesting.online"
+]
+ 
+22:04:47.153 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:13
+And Headers {Accept : "application/json", Content-Type: "application/json"}
+no step-definition method match found for: Headers {Accept : "application/json", Content-Type: "application/json"}
+classpath:homework07/postRequest.feature:13
+22:05:47.427 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:05:48.524 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:48.962 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+22:05:49.752 [main] DEBUG com.intuit.karate - response time in milliseconds: 778
+1 < 200
+1 < Date: Sat, 15 Oct 2022 01:05:50 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SYlVNKPIVxH43sLiH85UGkbDqBD33RgMnypLIA0IcuhGHl1qALYsUYdGufP2PPcOXinjvCD7IXCUn8aGEpeBYAfvTiUYGd5CdxVeJZaW6wYIEsFFSCqtsQPHUA%2Bxcqv%2FgiafbRL%2FtmuwIWjUWA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4a611ce358d94-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=GmRvs3cO4ouEV5Me; Domain=automationintesting.online
+
+
+22:05:49.768 [main] INFO  com.intuit.karate - [print] [
+  "token=GmRvs3cO4ouEV5Me; Domain=automationintesting.online"
+]
+ 
+22:05:49.773 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:11
+And request {{"bookingdates": {"checkin": "2022-10-27","checkout": "2022-10-28"} ,"depositpaid": true,"firstname": "joaquin","lastname": "mateos","roomid": 1,"totalprice":0}}
+net.minidev.json.parser.ParseException: Unexpected character ({) at position 1.
+classpath:homework07/postRequest.feature:11
+22:06:25.991 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:06:27.073 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:27.541 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+22:06:28.282 [main] DEBUG com.intuit.karate - response time in milliseconds: 730
+1 < 200
+1 < Date: Sat, 15 Oct 2022 01:06:29 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Bm76oEP8a0t%2FZrNYEoZbML9q4PYK%2B8jbCursOpxjl%2FB76Wcu43QgCMEFOTMbyFU5Ife79hcyhRIOl3tA4iZuljaOed7%2FLB%2FiAPcraIyNj9YcXQgmxCWabEhuPz%2BOh3Wrgq2vOXuSY3CXxkxxuw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4a7029af0b3bb-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=LHeI7bysJL5PexrR; Domain=automationintesting.online
+
+
+22:06:28.309 [main] INFO  com.intuit.karate - [print] [
+  "token=LHeI7bysJL5PexrR; Domain=automationintesting.online"
+]
+ 
+22:06:28.315 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:13
+And Headers {Accept : "application/json", Content-Type: "application/json"}
+no step-definition method match found for: Headers {Accept : "application/json", Content-Type: "application/json"}
+classpath:homework07/postRequest.feature:13
+22:06:45.583 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:06:46.685 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:47.143 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+22:06:48.021 [main] DEBUG com.intuit.karate - response time in milliseconds: 871
+1 < 200
+1 < Date: Sat, 15 Oct 2022 01:06:48 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CxrZihW4h3OSZFNlIQxOJGZGg67PFTFbZRFTORueomgZVMtar9MuUNfVi2iaG5qtLReAhqzNRIs55jI8yRYD7xbdPcuHq3tGDjC46z1ZELOsUMT4wVMYA%2Bi9Qzfi0gj5FgMQUAcx8OhUx4vH9w%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4a77d49260975-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=dQacuB7qk7qfBeFY; Domain=automationintesting.online
+
+
+22:06:48.036 [main] INFO  com.intuit.karate - [print] [
+  "token=dQacuB7qk7qfBeFY; Domain=automationintesting.online"
+]
+ 
+22:06:48.042 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:13
+And Headers {Accept : "application/json", Content-Type: "application/json"}
+no step-definition method match found for: Headers {Accept : "application/json", Content-Type: "application/json"}
+classpath:homework07/postRequest.feature:13
+22:07:30.960 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:07:32.019 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:07:32.475 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+22:07:33.348 [main] DEBUG com.intuit.karate - response time in milliseconds: 865
+1 < 200
+1 < Date: Sat, 15 Oct 2022 01:07:34 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nomNr53uLAn9ZZDjXOMeZrOgoWX7Z9EK7bcVXHK3tESjYYpweE6%2B3ZnJKeiVo%2Be2nblu%2Fi36mAfn9QwJLpBBEeycqqghFLO%2FJcQiIeqjfMDKZ7i3XS9ZAGNktfrme0mWmsncXGLM3ggtsF6BUw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4a8989a28da0b-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=BwzcmK6oxU6NSfTP; Domain=automationintesting.online
+
+
+22:07:33.362 [main] INFO  com.intuit.karate - [print] [
+  "token=BwzcmK6oxU6NSfTP; Domain=automationintesting.online"
+]
+ 
+22:07:33.367 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+22:07:33.703 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 337 milliseconds for url: https://automationintesting.online/booking
+22:07:33.704 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:14
+When method post
+http call failed after 337 milliseconds for url: https://automationintesting.online/booking
+classpath:homework07/postRequest.feature:14
+22:22:48.436 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:22:49.497 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:22:49.952 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+22:22:50.878 [main] DEBUG com.intuit.karate - response time in milliseconds: 916
+1 < 200
+1 < Date: Sat, 15 Oct 2022 01:22:51 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YsoaLWrAXNmjEaWbndSMdgZiXAhKZQtn8%2Fh2OVM%2B4DR%2FOKaWakPODCwADPhDOLlULBMtirGzLZ10cZTzJQQXC%2Belnk4uV9zNaD0F3VFzNowmmDX9klnqk6criEYy%2BRRH0AcY882C30Atjk85oQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4beff6853da6b-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=ZLSkIMPweXIHja38; Domain=automationintesting.online
+
+
+22:22:50.894 [main] INFO  com.intuit.karate - [print] [
+  "token=ZLSkIMPweXIHja38; Domain=automationintesting.online"
+]
+ 
+22:22:50.900 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+22:22:51.612 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 713 milliseconds for url: https://automationintesting.online/booking
+22:22:51.613 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:14
+When method post
+http call failed after 713 milliseconds for url: https://automationintesting.online/booking
+classpath:homework07/postRequest.feature:14
+22:40:29.830 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:40:30.919 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:40:31.378 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+22:40:32.260 [main] DEBUG com.intuit.karate - response time in milliseconds: 876
+1 < 200
+1 < Date: Sat, 15 Oct 2022 01:40:33 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ngk%2FHepzb2w7c4jobXzse8eQ%2B%2FJUC%2BSw6eHxxmDHMJU%2BHC7%2FJ%2FLJX3XxyQC2ZDyYKLzygeNm8aYAIlDkxdjcJAdsQT3i8t4Y56P5ViKtimiJ8hYo62zclKOSfBDi6WdlECqrNeWV1fwsTUeYcw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4d8e97d2b8dd9-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=suXmt6rAfZVhaf9s; Domain=automationintesting.online
+
+
+22:40:32.275 [main] INFO  com.intuit.karate - [print] [
+  "token=suXmt6rAfZVhaf9s; Domain=automationintesting.online"
+]
+ 
+22:40:32.280 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+22:40:32.573 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 294 milliseconds for url: https://automationintesting.online/booking
+22:40:32.573 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:14
+When method post
+http call failed after 294 milliseconds for url: https://automationintesting.online/booking
+classpath:homework07/postRequest.feature:14
+22:43:17.289 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:43:18.705 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:43:19.329 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+22:43:20.208 [main] DEBUG com.intuit.karate - response time in milliseconds: 873
+1 < 200
+1 < Date: Sat, 15 Oct 2022 01:43:21 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GiTqBoFkvL6cBqwX73s7%2BDQi2kJUNMSIdxxnU9itbGfwdubQFQ%2Ffw0eHbw66Bu3dmZcEt8ngR0%2BGeQSvZeXetxjUGctUWjfrZWJaU4dZr8hH01MD80d75F%2B8rflX45ci3IuprIDKeKj%2BuMUnEQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4dd033fbeda7b-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=jpTbCWPg58XE3rcC; Domain=automationintesting.online
+
+
+22:43:20.223 [main] INFO  com.intuit.karate - [print] [
+  "token=jpTbCWPg58XE3rcC; Domain=automationintesting.online"
+]
+ 
+22:43:20.229 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+22:43:21.540 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+22:43:22.155 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+22:43:22.437 [main] DEBUG com.intuit.karate - response time in milliseconds: 281
+4 < 403
+4 < Date: Sat, 15 Oct 2022 01:43:23 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xzymldQudCLAkhoX6RqZG8xQrY%2BfYZcDrzmLZqQEbXwWi3sG1kfWWcucasDXUAOGPdVXgwtuoYCghNgFTssdU79MgPE%2FvfNZ6GDwxKUOg0lFanfCCB15%2F3geWfkf7fOCSFtoMT8wl%2Fh5MKC4zw%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75a4dd11eeb49ac3-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+
+22:43:22.439 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:16
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 281, url: https://automationintesting.online/booking, response: 
+
+classpath:homework07/postRequest.feature:16
+22:54:37.397 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:54:39.558 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:54:40.314 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+22:54:41.436 [main] DEBUG com.intuit.karate - response time in milliseconds: 1112
+1 < 200
+1 < Date: Sat, 15 Oct 2022 01:54:42 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1OS7KpSEDRk6ymckDdD4%2FuPxpyUSxQX5rvIgOGnMdzTRzubft2u%2Fw2vxROOua6Y1%2BeSibcGKYmqpLPrLQq0xPB%2FcbwYhZROMdX5RzRUX7Tjtr6f7KCbTRr3QxaKbctXeBH%2FaJGWHij%2F7awFxgA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4eda51c322263-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=DLhVwao5kAs31N6h; Domain=automationintesting.online
+
+
+22:54:41.451 [main] INFO  com.intuit.karate - [print] [
+  "token=DLhVwao5kAs31N6h; Domain=automationintesting.online"
+]
+ 
+22:54:41.457 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+22:54:42.179 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+22:54:42.502 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+22:54:42.776 [main] DEBUG com.intuit.karate - response time in milliseconds: 274
+4 < 403
+4 < Date: Sat, 15 Oct 2022 01:54:43 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2B4tNw3qdqBdvJuQtSSsAv9gyj5QOdGck7x6jAXB35qKoGS0W8e4QiqHSCVouHob6KLXZZpVQP0j8ygUvjcrtmjdrpdOZI8oKbtVcC84VvgnPPw%2Br79hJBMoMdhr1Pe9l8HoLzr3AqBl7atU5mg%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75a4edae493e0306-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+
+22:54:42.778 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:16
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 274, url: https://automationintesting.online/booking, response: 
+
+classpath:homework07/postRequest.feature:16
+22:57:25.437 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:57:26.528 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:57:27.054 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+22:57:27.896 [main] DEBUG com.intuit.karate - response time in milliseconds: 830
+1 < 200
+1 < Date: Sat, 15 Oct 2022 01:57:28 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DeBP3%2Feqjssy9xPrhZaP6pFKF4%2FUD3Lqa9X13sSMn8UdkKmNJzxeRNzIQNYI5ucbBe95Hr97whGo3AqH5A3xG66D0wPxnI%2BA3Jdt7fsQOaqje715zv0BpLozNWVKAvtNSLDTlUZnDyS3y%2BbqNg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4f1b56a268da3-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=yWOIzebl6BktL2Ng; Domain=automationintesting.online
+
+
+22:57:27.915 [main] INFO  com.intuit.karate - [print] [
+  "token=yWOIzebl6BktL2Ng; Domain=automationintesting.online"
+]
+ 
+22:57:27.921 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+22:57:28.676 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+22:57:28.972 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+22:57:29.262 [main] DEBUG com.intuit.karate - response time in milliseconds: 290
+4 < 403
+4 < Date: Sat, 15 Oct 2022 01:57:30 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cLC%2F40w%2Fp0yHyPl%2FB7MRN7Ect%2FXUe8dCF8PN6Lj2wjRqdgIshA8ogON24U1m%2FqHvxhp1XsdsDszXJkBux4759uRjOqQ5KWAXtQnL5aYAGwYliz5Z1NQsV2lC%2F3wNyFZM6zT4XuhR%2F%2Ffj%2F2nllQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75a4f1bed9f3ef0e-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+
+22:57:29.267 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:16
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 290, url: https://automationintesting.online/booking, response: 
+
+classpath:homework07/postRequest.feature:16
+23:00:11.450 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:00:12.649 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:00:13.109 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login/
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+23:00:14.017 [main] DEBUG com.intuit.karate - response time in milliseconds: 901
+1 < 200
+1 < Date: Sat, 15 Oct 2022 02:00:14 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2Bfs7qknjUDPn%2Fu0fliwDWfmdhCCmxUK%2BElXQadVyG4P33L3XExWNQ8MtD2Ts47y4qOIgCg7xgCUYW0Yl2q4zmcvjIuxEMYoWfnk64o2blgWHRQuGtjqhdWu6%2B%2FbMfMMw0xLAp2en6EI9iQmSQQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4f5c3bf13b3ec-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=4XXsHoyuvjrgangk; Domain=automationintesting.online
+
+
+23:00:14.031 [main] INFO  com.intuit.karate - [print] [
+  "token=4XXsHoyuvjrgangk; Domain=automationintesting.online"
+]
+ 
+23:00:14.037 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:00:14.751 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:00:15.053 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:00:15.334 [main] DEBUG com.intuit.karate - response time in milliseconds: 279
+4 < 403
+4 < Date: Sat, 15 Oct 2022 02:00:16 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Bv5AummgMfm%2BaGM%2FsO1Qpjyjmx728g%2BCu24o5nY%2FXvn%2F7TupUXBmk4cmQOmFGwtfhiRN%2BpsDECire0PYj4x0Jh26ALcle6w8%2B36CNnttCk5e%2BQfrU05fKH9TOWWfPRfwvOa%2BDArIggzGERE4Bw%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75a4f5ccd93b8da2-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+
+23:00:15.339 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:16
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 279, url: https://automationintesting.online/booking, response: 
+
+classpath:homework07/postRequest.feature:16
+23:02:15.499 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:02:16.614 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:02:17.089 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+23:02:17.959 [main] DEBUG com.intuit.karate - response time in milliseconds: 858
+1 < 200
+1 < Date: Sat, 15 Oct 2022 02:02:18 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Eoz9auGSkzC%2Bc0jvzQEjNWNkE%2FG07NXU7eFxgn%2FW4rOcLTNR5uWji1SOXS3sdjuAst%2BLsMMB%2FhvivMiwvMDYRRRMUjqi5g%2FvCBSqo%2FQ2mAgo7gvlR%2B7sexT8KJZQKjmeh2uBTVNt8q2SXKvfmw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4f8ca6ee921e7-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=oyzDIdvPzBdsAQFS; Domain=automationintesting.online
+
+
+23:02:17.980 [main] INFO  com.intuit.karate - [print] [
+  "token=oyzDIdvPzBdsAQFS; Domain=automationintesting.online"
+]
+ 
+23:02:17.984 [main] INFO  com.intuit.karate - [print] [
+  "token=oyzDIdvPzBdsAQFS; Domain=automationintesting.online"
+]
+ 
+23:02:17.986 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:02:18.695 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:02:19.002 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:02:19.291 [main] DEBUG com.intuit.karate - response time in milliseconds: 289
+4 < 403
+4 < Date: Sat, 15 Oct 2022 02:02:20 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qGjfNh4rWl2YHY7SGS24Svu1ZEr1yWORhihhxI0OmcSUnep65wAsEk94FZmxalygURWzNv7uCGcsztgUR6rAwY4wO70NUoK8RO47hnTnxCPEWf8d0ecwIK9YABejcETpkZThegF%2FKixSmGR%2B1w%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75a4f8d39f07dadd-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+
+23:02:19.293 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:17
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 289, url: https://automationintesting.online/booking, response: 
+
+classpath:homework07/postRequest.feature:17
+23:03:43.778 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:03:45.057 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:03:45.594 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+23:03:46.449 [main] DEBUG com.intuit.karate - response time in milliseconds: 850
+1 < 200
+1 < Date: Sat, 15 Oct 2022 02:03:47 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hp9Ew7sJAySPWHGIgY2D0XsIas8b6kZhkVI8d93H78dXRVfLKWvoLZW9%2BMLy2022BkdKPEmzJnfphVNShdtI3NmeunlL4hfrVolZk79UT88tAzkLFG5C2ueCINESPjjiTuYeN5whpC7rP6EPYA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4faf39cf48dfc-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=RLENVTfVcO3XC5Oo; Domain=automationintesting.online
+
+
+23:03:46.463 [main] INFO  com.intuit.karate - [print] [
+  "token=RLENVTfVcO3XC5Oo; Domain=automationintesting.online"
+]
+ 
+23:03:46.469 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:03:47.186 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:03:47.489 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:03:47.763 [main] DEBUG com.intuit.karate - response time in milliseconds: 273
+4 < 403
+4 < Date: Sat, 15 Oct 2022 02:03:48 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=INgC3wbn1Z%2BLxilIqHBd7o%2BoBQ3dXla8fqfBqUMLk2YekYPDft32Pu%2FUlMODj2Bqas4RbtryvQ3%2BKjv0nG4D14JxqcUgYhh0fJJCsItvDlKJrDT0znfbtBRdn9meYl7COdA%2BpWSZcFqAB3XwDA%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75a4fafca9d621ca-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+
+23:03:47.765 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:16
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 273, url: https://automationintesting.online/booking, response: 
+
+classpath:homework07/postRequest.feature:16
+23:04:52.794 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:04:53.970 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:04:54.436 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+23:04:55.274 [main] DEBUG com.intuit.karate - response time in milliseconds: 831
+1 < 200
+1 < Date: Sat, 15 Oct 2022 02:04:56 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zF%2FcKQHwfOlRKzDQCP4JuxqBDRmDbfq%2FoWmbSuESK2cxKsl9GQgmPuELg3OlRJUTo29Oet51tc4jTX7qCxAL0QDHVcfdiLlK43mdGm4Suukgw%2BGPcQBIZKOjBkVxKc6QVGW2Zik%2FC3nW0lOFug%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a4fca1bf74d4ed-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=PBS6Ln5CryAMhPir; Domain=automationintesting.online
+
+
+23:04:55.287 [main] INFO  com.intuit.karate - [print] [
+  "token=PBS6Ln5CryAMhPir; Domain=automationintesting.online"
+]
+ 
+23:04:55.292 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:14
+And Headers {Accept : "application/json", Content-Type: "application/json"}
+no step-definition method match found for: Headers {Accept : "application/json", Content-Type: "application/json"}
+classpath:homework07/postRequest.feature:14
+23:23:53.036 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:24:00.567 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:24:02.278 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+23:24:04.073 [main] DEBUG com.intuit.karate - response time in milliseconds: 1720
+1 < 200
+1 < Date: Sat, 15 Oct 2022 02:24:04 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0V%2FsMcBTiHq8OUGNmE8CsN2IV84w9vnHhrkhC8ANHZmOTnljKiHSV79txKdwaq1FwMHLp2MdEazvemqHfmFgg2i5ANpMNVrol2mXlxOav288M0RuIC8GyIOVKV6SLeAf5wNtmzqN68xIwdc6kg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a518ad6a250359-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=qWx32zFhRmmSEcJm; Domain=automationintesting.online
+
+
+23:24:04.111 [main] INFO  com.intuit.karate - [print] [
+  "token=qWx32zFhRmmSEcJm; Domain=automationintesting.online"
+]
+ 
+23:24:04.116 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:24:04.460 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 342 milliseconds for url: https://automationintesting.online/booking
+23:24:04.461 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:13
+When method post
+http call failed after 342 milliseconds for url: https://automationintesting.online/booking
+classpath:homework07/postRequest.feature:13
+23:25:57.231 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:25:58.362 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:25:58.850 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+23:25:59.801 [main] DEBUG com.intuit.karate - response time in milliseconds: 940
+1 < 200
+1 < Date: Sat, 15 Oct 2022 02:26:00 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=X0ca%2BYn3qvFuoTG1BvSlUk%2F1yLq5k8aIQ%2FtWjV8EmUHkFj%2F4%2B8G6oJV%2F0xXlG3qJ88p2GBLZa0%2FsobMOQtVtR%2BUw0dUJG1DD1RETHYliws7g5Nkr7UQOIDovfqsZwlwMEEZboOlb3HtYLUjlFQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a51b8169170331-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=2lQO0KfgSWAYHMTJ; Domain=automationintesting.online
+
+
+23:25:59.819 [main] INFO  com.intuit.karate - [print] [
+  "token=2lQO0KfgSWAYHMTJ; Domain=automationintesting.online"
+]
+ 
+23:25:59.824 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:26:00.123 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 300 milliseconds for url: https://automationintesting.online/booking
+23:26:00.123 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:13
+When method post
+http call failed after 300 milliseconds for url: https://automationintesting.online/booking
+classpath:homework07/postRequest.feature:13
+23:26:22.695 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:26:23.813 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:26:24.339 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+23:26:25.186 [main] DEBUG com.intuit.karate - response time in milliseconds: 841
+1 < 200
+1 < Date: Sat, 15 Oct 2022 02:26:26 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wm%2BzFZImyF2uwbUschPYS3ryuJi14KfMWuHB6v7fMeh4jLpVXjcAdcAHQa8k9aM0xwcsQMyeXojoYCfQTqC30RUrjNfKTQCazSo%2BzsNyVI1%2BxgXwCOBhKXiC%2F7VUswVtsvHpILxaIHezp30tvg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a51c203c1f67d8-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=OjQo3yaih6qXReiX; Domain=automationintesting.online
+
+
+23:26:25.201 [main] INFO  com.intuit.karate - [print] [
+  "token=OjQo3yaih6qXReiX; Domain=automationintesting.online"
+]
+ 
+23:26:25.207 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:26:25.506 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 300 milliseconds for url: https://automationintesting.online/booking
+23:26:25.507 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:13
+When method post
+http call failed after 300 milliseconds for url: https://automationintesting.online/booking
+classpath:homework07/postRequest.feature:13
+23:27:02.936 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:27:04.034 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:27:04.497 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+23:27:05.425 [main] DEBUG com.intuit.karate - response time in milliseconds: 922
+1 < 200
+1 < Date: Sat, 15 Oct 2022 02:27:06 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xHjJfCL51lW8qwM2ZXY3egtKIXHNs6h1Hfzlie45wOewnBSap4%2BonzSp17pm4Js4%2FRpe2adrYW8tn%2FnakfIM3KzG%2FJ9bBt0GvlrUKd1mTY6ImQNgBdRbtPARjY4FqLbvAzTD1y%2FHVb6eSkiUnQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a51d1bab358bff-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=SS8amClosdZjaAfn; Domain=automationintesting.online
+
+
+23:27:05.439 [main] INFO  com.intuit.karate - [print] [
+  "token=SS8amClosdZjaAfn; Domain=automationintesting.online"
+]
+ 
+23:27:05.445 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:27:05.768 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 324 milliseconds for url: https://automationintesting.online/booking
+23:27:05.768 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:13
+When method post
+http call failed after 324 milliseconds for url: https://automationintesting.online/booking
+classpath:homework07/postRequest.feature:13
+23:29:24.479 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:29:25.580 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:29:26.054 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+23:29:27.021 [main] DEBUG com.intuit.karate - response time in milliseconds: 958
+1 < 200
+1 < Date: Sat, 15 Oct 2022 02:29:28 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XHOTlICSWTF212h3Xy8eeOZIB0uqrHRMR7%2BFxevBRBAZ85q6V%2Fn54MdriO0L0Rr9%2BbWoScnB6O1VNWmOmATPtwHH0aEciOetbkADAyI6Lxv%2F9fzgPNf0%2BdcoOutaW2Z5xYBDQYbHW4IHpCzgdg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a52090ac91da4f-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=Wcsd5UhaH6h0pDCa; Domain=automationintesting.online
+
+
+23:29:27.036 [main] INFO  com.intuit.karate - [print] [
+  "token=Wcsd5UhaH6h0pDCa; Domain=automationintesting.online"
+]
+ 
+23:29:27.041 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:29:27.351 [main] ERROR com.intuit.karate - javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated, http call failed after 311 milliseconds for url: https://automationintesting.online/booking
+23:29:27.352 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:13
+When method post
+http call failed after 311 milliseconds for url: https://automationintesting.online/booking
+classpath:homework07/postRequest.feature:13
+23:34:42.389 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:34:48.086 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:34:49.773 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+23:34:51.151 [main] DEBUG com.intuit.karate - response time in milliseconds: 1302
+1 < 200
+1 < Date: Sat, 15 Oct 2022 02:34:52 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q72JHGymKGLKJR6uKDwHzyc1wIS4DuRd6wu79jOUY%2BwaaL2X5yE9qxA5PcphiqbMrfZrnol%2B%2FYVbiz1irv4Dm5Zhhf1qDAv%2BJObS9GFDr3d%2BTlvxDYJZyufyaSNIS7o57uwRljEQJomjVzb%2FYQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a5287a28b72269-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=jt26B0nv7Z0TbXNd; Domain=automationintesting.online
+
+
+23:34:51.223 [main] INFO  com.intuit.karate - [print] [
+  "token=jt26B0nv7Z0TbXNd; Domain=automationintesting.online"
+]
+ 
+23:34:51.229 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:34:51.936 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:34:52.302 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:34:52.573 [main] DEBUG com.intuit.karate - response time in milliseconds: 270
+4 < 403
+4 < Date: Sat, 15 Oct 2022 02:34:53 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6p2DlFKJdQdHb812qrThNJkonGPp114qwiv8RB0MRMSpjCJh3GNJo2bU3zK9kjF7GmAronFP1I63ATwAHXlYwv17a44bc7MT90eh%2F8PBxw1iMKSma4p8KBKFPrxHxjidjCgBUgK26wVO4BEMZQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75a528845ee002b6-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+
+23:34:52.579 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:14
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 270, url: https://automationintesting.online/booking, response: 
+
+classpath:homework07/postRequest.feature:14
+23:41:35.780 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:41:45.793 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:41:49.272 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+23:41:50.715 [main] DEBUG com.intuit.karate - response time in milliseconds: 1367
+1 < 200
+1 < Date: Sat, 15 Oct 2022 02:41:51 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AK9OtRJyK4J6ofuipHimERHIyXkCMnUEgo%2FxH7VTQaTsKcdlpL4ZIj8m7gAfSZUZxxl1V%2Fherd2fVHcxdE5z5zwUit0oSkGkaHCurZfI9enz5sGgTOMvzzUt3erSJVA3VuQnkWxPXVeb66wAZw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a532b8792d67b1-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=oggnh1qd7RZ1jCNk; Domain=automationintesting.online
+
+
+23:41:50.777 [main] INFO  com.intuit.karate - [print] [
+  "token=oggnh1qd7RZ1jCNk; Domain=automationintesting.online"
+]
+ 
+23:41:50.784 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:11
+And cookie = token
+no step-definition method match found for: cookie = token
+classpath:homework07/postRequest.feature:11
+23:42:28.965 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:42:30.045 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:42:30.537 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+23:42:31.402 [main] DEBUG com.intuit.karate - response time in milliseconds: 859
+1 < 200
+1 < Date: Sat, 15 Oct 2022 02:42:32 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GZMg3GoADwtJ9c9Fb28GNre2AzhS8JNudnaYrZse3kBnAbu4JGTjII2lp1pBBhBD59h9gVArOeoORqa%2F6NFNaJ149ajohLRcxglpPm0fGUSIKSze1nB2kidxW2U2XwI%2FdM%2Bo8N%2FCcjh424uNnA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a533b75ca0b3df-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=gZqM1gv9M05OzajF; Domain=automationintesting.online
+
+
+23:42:31.416 [main] INFO  com.intuit.karate - [print] [
+  "token=gZqM1gv9M05OzajF; Domain=automationintesting.online"
+]
+ 
+23:42:31.422 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:42:32.126 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:42:32.487 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+23:42:32.761 [main] DEBUG com.intuit.karate - response time in milliseconds: 273
+4 < 403
+4 < Date: Sat, 15 Oct 2022 02:42:33 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1bc3yiftYrBRtKskWMeLsMxou0GHaVOsS5bP9b1xe5noWXYQKTB%2BdKsUlVA6S4ggCzWJ%2FigCVWxNs3ayMVzARrS3tdgq8O6Nt5VyBebcjjcrdEgUkVsw%2BuI40XX0gHAVsYNtCqv16Ri4q4TCVA%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75a533c0a976daf9-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+
+23:42:32.766 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:14
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 273, url: https://automationintesting.online/booking, response: 
+
+classpath:homework07/postRequest.feature:14
+00:01:13.944 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:01:37.229 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:01:48.920 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+00:01:53.722 [main] DEBUG com.intuit.karate - response time in milliseconds: 4615
+1 < 200
+1 < Date: Sat, 15 Oct 2022 03:01:54 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=An%2Fmm1F49Pw8%2BrvPaoV8a6NkmP1yUDhivLwyO6ghsT%2Fprq2Sr1X4wZCUw9Hf%2Bekc2E3pg%2FLxP5RmsmCRjEnZR1Rhxp5caAcg7VMKUJSwudaDRr6Jiv4kgByze2kipl9otZKrQd76UibJOqQhsw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a55016994167ea-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=ZsM5IDYHqyTFGBTi; Domain=automationintesting.online
+
+
+00:01:53.787 [main] INFO  com.intuit.karate - [print] [
+  "token=ZsM5IDYHqyTFGBTi; Domain=automationintesting.online"
+]
+ 
+00:01:53.833 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:01:53.957 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:20
+And cookie authToken = token
+js failed:
+>>>>
+01: token
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "token" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:homework07/postRequest.feature:20
+00:03:07.603 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:03:09.086 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:03:09.837 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+00:03:10.663 [main] DEBUG com.intuit.karate - response time in milliseconds: 820
+1 < 200
+1 < Date: Sat, 15 Oct 2022 03:03:11 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=r6e%2By4eS73kY4EzL%2FWu8eszp5jWYpKyZluxyZrA3Eg%2Ba7yaeLf1TESGp%2FmxuGHA7ZtchQka5Bb9nXHHZXVobDLrhQ6MqwdBSvpm8KyBWiGw74qH4rX5jkKe1%2BP2QhPMBl%2F88rfs%2BIhLL1niTPg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a551f92f8609da-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=U6USgODOPkzgUO3L; Domain=automationintesting.online
+
+
+00:03:10.677 [main] INFO  com.intuit.karate - [print] [
+  "token=U6USgODOPkzgUO3L; Domain=automationintesting.online"
+]
+ 
+00:03:11.835 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Cookie: token=U6USgODOPkzgUO3L
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+00:03:12.509 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Cookie: token=U6USgODOPkzgUO3L
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+00:03:15.280 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Cookie: token=U6USgODOPkzgUO3L
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+00:03:15.552 [main] DEBUG com.intuit.karate - response time in milliseconds: 272
+4 < 200
+4 < Date: Sat, 15 Oct 2022 03:03:16 GMT
+4 < Content-Type: application/json
+4 < Transfer-Encoding: chunked
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Nhsh7uHybJBnWiJ3QMMMOTqAyVwwAMmb5N4a2cLqAMM9Is1O9FFqo%2B3b1bjEpIbjbyUbgwUvPUR4SmP6rEHFu85rnPq1%2FG%2F5UJdFIEx45QN4BerznBZiFT1j3mYhUeOxzVFhtXaEcolhlKJS4A%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75a552188d8cb3bf-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+
+00:03:15.554 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:23
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 272, url: https://automationintesting.online/booking, response: 
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+classpath:homework07/postRequest.feature:23
+00:04:54.818 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:05:05.642 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:05:06.385 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+00:05:07.569 [main] DEBUG com.intuit.karate - response time in milliseconds: 1174
+1 < 200
+1 < Date: Sat, 15 Oct 2022 03:05:08 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9WAaFy%2F0iReeNBCRAys%2FXgm%2BuCCHK9hWoA7PZGcK8mkR5bWs7ch6y1wYzRnlpUPMIisfJU7M2wUayN%2BLlXLeaErrwee08vFVv77mvyHBbimzbfRO05AKEsiSWaKacikvNW%2F8Yi%2FHypNNXIpguA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a554d3cd4a9ab1-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=2J5yvYHYoS0slGsw; Domain=automationintesting.online
+
+
+00:05:07.588 [main] INFO  com.intuit.karate - [print] [
+  "token=2J5yvYHYoS0slGsw; Domain=automationintesting.online"
+]
+ 
+00:05:07.593 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Cookie: token=2J5yvYHYoS0slGsw
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+00:05:08.313 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Cookie: token=2J5yvYHYoS0slGsw
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+00:05:08.609 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Cookie: token=2J5yvYHYoS0slGsw
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+00:05:08.886 [main] DEBUG com.intuit.karate - response time in milliseconds: 276
+4 < 200
+4 < Date: Sat, 15 Oct 2022 03:05:10 GMT
+4 < Content-Type: application/json
+4 < Transfer-Encoding: chunked
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TtNjmhaY8Mz572GLiP2zG1cmyHkTMQQmsBlThnwYBL9ktn0AYEmGYqT2o0p%2BBZyfceyfVzzKV1YawnvuzGMaLh82lx%2FYPWSn8OwPxaN4gBdRIds2yJw9ObRWOlma6zw3oShHnSkBds6Tf0ID4g%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75a554dcda80b3b6-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+
+00:05:08.887 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:23
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 276, url: https://automationintesting.online/booking, response: 
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+classpath:homework07/postRequest.feature:23
+00:17:21.940 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:17:34.121 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:17:51.022 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+00:17:54.856 [main] DEBUG com.intuit.karate - response time in milliseconds: 3702
+1 < 200
+1 < Date: Sat, 15 Oct 2022 03:17:55 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mpladsZqcaJAfZDUVw6Jham3CHe8YId3gjrX8sMrIe82iRcAmP0FosN%2FHrB6QRbjpc3LDNYoqnHz%2FXG9LgTOtLmotOTPOyzg9%2Fk8ugglv77ZnnaU7wSRReDbust5dp%2Bl3ivNiQYnuPYSCk5Y%2BQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a5678eaea30a36-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=8zNv2X1gA1YplG8o; Domain=automationintesting.online
+
+
+00:17:54.896 [main] INFO  com.intuit.karate - [print] [
+  "token=8zNv2X1gA1YplG8o; Domain=automationintesting.online"
+]
+ 
+00:17:54.899 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:22
+And headers {Accept = 'application/json', Content-Type = 'application/json'}
+net.minidev.json.parser.ParseException: Unexpected End Of File position 63: null
+classpath:homework07/postRequest.feature:22
+00:20:01.688 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:20:02.856 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:20:03.337 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+00:20:04.178 [main] DEBUG com.intuit.karate - response time in milliseconds: 835
+1 < 200
+1 < Date: Sat, 15 Oct 2022 03:20:05 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KA19xmg%2F28ys1iReFOyv05Qo9ix%2B9q107LZ0QydZZu%2FcEqxyU7lR6pbE4fsdrgcZZy%2BAyDuCjodkUlu8MwzWKm2yQ8JrZ9Sk9pTGnQ%2Fy1aMCcCuZzU1PTS7zJeGr553VtH3JVP0ueDW8%2BGECDg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a56ab7ee4b9add-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=vwVEV5ITgkwbUSve; Domain=automationintesting.online
+
+
+00:20:04.196 [main] INFO  com.intuit.karate - [print] [
+  "token=vwVEV5ITgkwbUSve; Domain=automationintesting.online"
+]
+ 
+00:20:04.204 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+00:20:04.898 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+00:20:05.390 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+00:20:05.659 [main] DEBUG com.intuit.karate - response time in milliseconds: 269
+4 < 403
+4 < Date: Sat, 15 Oct 2022 03:20:06 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1RHO8OyL8ihfurE6CeJaYULtEvZf3TvZgWSsNfkcTmGHEyYMk9x%2FbD%2BsIfhEPql702tsCvZyd6Uh7HSjuzd6QzVwiAOVs6Jway0eZBq7jBQrzqTNpZd5%2BxuG2yIjQ5Ea98lW3cQP4xob7TdGEw%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75a56ac20f3c0a0a-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+
+00:20:05.664 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:15
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 269, url: https://automationintesting.online/booking, response: 
+
+classpath:homework07/postRequest.feature:15
+00:20:56.084 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:20:57.212 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:20:57.649 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+00:20:58.429 [main] DEBUG com.intuit.karate - response time in milliseconds: 769
+1 < 200
+1 < Date: Sat, 15 Oct 2022 03:20:59 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yplg%2BX1jw2KkYca6Qh4%2BgY6Yptv6BLfuGDzq53TmjvxErqycKpwU%2F%2BdeEC6huSb7iIL8KGaHuKU5QceqfhoRghEeYvRo7adzmO0QJHJIGIMHqLCABRZ%2Fqxm2pNO4YYqdPesViiB%2BV5Txnm31vw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75a56c0b9e3509a6-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=1jiQimDTRbwBogbh; Domain=automationintesting.online
+
+
+00:20:58.443 [main] INFO  com.intuit.karate - [print] [
+  "token=1jiQimDTRbwBogbh; Domain=automationintesting.online"
+]
+ 
+00:20:58.461 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Cookie: token=1jiQimDTRbwBogbh
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+00:20:59.184 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Cookie: token=1jiQimDTRbwBogbh
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+00:20:59.481 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Cookie: token=1jiQimDTRbwBogbh
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+00:20:59.760 [main] DEBUG com.intuit.karate - response time in milliseconds: 279
+4 < 200
+4 < Date: Sat, 15 Oct 2022 03:21:00 GMT
+4 < Content-Type: application/json
+4 < Transfer-Encoding: chunked
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3l5gMtUDcrwn2VEcZbupgiSXWpLQj4AeoVGRimf2t%2B2rtsFO42yex1JqRtEDhP%2BUE4ydpUhUTQSHQePqbBeeALABJHKbLhaF8TqwapCE%2FI%2FunHiATYNIpGT1N2EuW2mJJN%2F236decyRS%2BNlPSw%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75a56c141ac9b3e5-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+
+00:20:59.762 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:23
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 279, url: https://automationintesting.online/booking, response: 
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+classpath:homework07/postRequest.feature:23
+00:24:12.877 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:24:13.996 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:24:14.500 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:24:18.589 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+00:24:18.914 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+00:24:19.199 [main] DEBUG com.intuit.karate - response time in milliseconds: 282
+3 < 200
+3 < Date: Sat, 15 Oct 2022 03:24:20 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dPzW%2FefzygTRSj7XxhCb4TAmrFhJUXL5YIHfKAIKo%2BwONJSUiusAerfiUzpe%2FanxPP59xSsWzvkKbWJzkdmjMVO9QbOQMyUy%2B56lio%2BWRwOgb26nM1W%2FXFWpjrjO8Th2BSAl8v%2BRx4OZtrU30A%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 75a570f2b8b38dc6-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+00:24:19.239 [main] INFO  com.intuit.karate - [print] {
+  "rooms": [
+    {
+      "roomid": 1,
+      "roomName": "101",
+      "type": "single",
+      "accessible": true,
+      "image": "https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg",
+      "description": "Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.",
+      "features": [
+        "TV",
+        "WiFi",
+        "Safe"
+      ],
+      "roomPrice": 100
+    }
+  ]
+}
+ 
+00:26:53.544 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:26:54.910 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:26:55.350 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:26:56.231 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+00:26:56.541 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+00:26:56.821 [main] DEBUG com.intuit.karate - response time in milliseconds: 278
+3 < 200
+3 < Date: Sat, 15 Oct 2022 03:26:58 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fi8safQVxNz8Oz1wo2j3oDI6qKD62HkUXUvb6lTw%2FbM1hVbvKdZjUnJCBNxqaWlIG02AZ9jf9qi%2BqSeDaoGYmitXN27Eql1z9eYQe4WGFgLvB10YWC8rIXOk8ZOkESSFX6q9JHtsJKtIbUMsxg%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 75a574cbee90db19-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+00:26:56.867 [main] INFO  com.intuit.karate - [print] {
+  "rooms": [
+    {
+      "roomid": 1,
+      "roomName": "101",
+      "type": "single",
+      "accessible": true,
+      "image": "https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg",
+      "description": "Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.",
+      "features": [
+        "TV",
+        "WiFi",
+        "Safe"
+      ],
+      "roomPrice": 100
+    }
+  ]
+}
+ 
+00:28:28.395 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:28:29.638 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:28:30.080 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:28:30.978 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+00:28:31.279 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+00:28:31.550 [main] DEBUG com.intuit.karate - response time in milliseconds: 269
+3 < 200
+3 < Date: Sat, 15 Oct 2022 03:28:32 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Od3bN1q37BuOMRdGVITlF3Ta24gLwGyacGsJCLADLtWG8hW5uHFpfuLWovMrcsYXA2zyqmuEAxREqUzNVMVTUyaxYfha3dJ3IKlcqDAtCvYgbRLk0YJ8USjU86C3pUsh3gA2krcMBqOCii5Q4g%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 75a5771bfd939af1-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+00:28:31.589 [main] INFO  com.intuit.karate - [print] {
+  "rooms": [
+    {
+      "roomid": 1,
+      "roomName": "101",
+      "type": "single",
+      "accessible": true,
+      "image": "https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg",
+      "description": "Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.",
+      "features": [
+        "TV",
+        "WiFi",
+        "Safe"
+      ],
+      "roomPrice": 100
+    }
+  ]
+}
+ 
+00:28:31.599 [main] INFO  com.intuit.karate - [print] null 
+00:29:51.482 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:29:52.593 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:29:52.946 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:29:53.860 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+00:29:54.158 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+00:29:54.426 [main] DEBUG com.intuit.karate - response time in milliseconds: 266
+3 < 200
+3 < Date: Sat, 15 Oct 2022 03:29:55 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=80ln%2FY56vdMAh%2FHkAVjxUQ%2By0cduWFw4cy01Gv8HTXjfuxz%2FMtzVT40RwmI2tAUAG%2FBLedEj9X2YTJg1Bfu6yNW9N9yvVk55vOjSb%2FA8pb6HRXZS9tUypPgi4vEc2MGwFV4naOhI1w2pWSOf7A%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 75a579220be7daf1-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+00:29:54.466 [main] INFO  com.intuit.karate - [print] {
+  "rooms": [
+    {
+      "roomid": 1,
+      "roomName": "101",
+      "type": "single",
+      "accessible": true,
+      "image": "https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg",
+      "description": "Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.",
+      "features": [
+        "TV",
+        "WiFi",
+        "Safe"
+      ],
+      "roomPrice": 100
+    }
+  ]
+}
+ 
+00:29:54.598 [main] ERROR com.intuit.karate - classpath:homework07/getRequest.feature:12
+* def roomid = response['roomid'][0]
+js failed:
+>>>>
+01: response['roomid'][0]
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "0" from undefined
+- <js>.:program(Unnamed:1)
+
+classpath:homework07/getRequest.feature:12
+00:31:00.728 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:31:01.934 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:31:02.351 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:31:03.224 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+00:31:03.595 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+00:31:03.865 [main] DEBUG com.intuit.karate - response time in milliseconds: 266
+3 < 200
+3 < Date: Sat, 15 Oct 2022 03:31:05 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UGCsVJO%2Fn7G3eNGEV4PWwOkqkyDTvI781R6AcqCqOyH%2BRuAln%2BZ9DaN3IOscuF5q2Iw%2BP9y42Phg7W9crbPkEVycyc1rjmEFrfVz6RRpqyngeHTMS%2BOBmWedMVDloY642jvE2wkQrJ6jOpXCtA%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 75a57ad40d8cdab1-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+00:31:03.917 [main] INFO  com.intuit.karate - [print] {
+  "rooms": [
+    {
+      "roomid": 1,
+      "roomName": "101",
+      "type": "single",
+      "accessible": true,
+      "image": "https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg",
+      "description": "Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.",
+      "features": [
+        "TV",
+        "WiFi",
+        "Safe"
+      ],
+      "roomPrice": 100
+    }
+  ]
+}
+ 
+00:31:03.926 [main] INFO  com.intuit.karate - [print] 1 
+00:31:19.154 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:31:20.465 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:31:20.951 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:31:21.815 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+00:31:22.119 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+00:31:22.403 [main] DEBUG com.intuit.karate - response time in milliseconds: 280
+3 < 200
+3 < Date: Sat, 15 Oct 2022 03:31:23 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MjDn6ABX1xMgjLclRMqeE0e5B%2BmmHPXrgebLcBg0zKQZhSaiykFZd8q7ZO5yGE5YhkpIZkIMOWfCc1AHqhE756VDFPZdVOPu8AKg35T7qZPRPjHDnq9F0HywTLpy1SwpGNhTrn1%2BdHb3Kh5R7Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 75a57b47db7fb3e9-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+00:31:22.450 [main] INFO  com.intuit.karate - [print] {
+  "rooms": [
+    {
+      "roomid": 1,
+      "roomName": "101",
+      "type": "single",
+      "accessible": true,
+      "image": "https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg",
+      "description": "Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.",
+      "features": [
+        "TV",
+        "WiFi",
+        "Safe"
+      ],
+      "roomPrice": 100
+    }
+  ]
+}
+ 
+00:31:22.459 [main] INFO  com.intuit.karate - [print] 1 
+14:03:03.784 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:03:10.225 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:03:11.471 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:03:12.973 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+14:03:13.326 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+14:03:13.626 [main] DEBUG com.intuit.karate - response time in milliseconds: 273
+3 < 200
+3 < Date: Sat, 15 Oct 2022 17:03:15 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0FkxgjjGKPunKIbXt26xnSeQi4V4yejtUkDJ2SLXj1f8%2FHtuTox5y5ePUuePSb4yJE6LjJ5Y2N9s6p0voBx4Pkia%2BbAtu8WgcKxjBjbr2KEbTHO1iH%2BBRuZlG8hyoCLzxjZEcznCsONTZDpS5A%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 75aa208968c267b1-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+14:03:13.714 [main] INFO  com.intuit.karate - [print] {
+  "rooms": [
+    {
+      "roomid": 1,
+      "roomName": "101",
+      "type": "single",
+      "accessible": true,
+      "image": "https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg",
+      "description": "Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.",
+      "features": [
+        "TV",
+        "WiFi",
+        "Safe"
+      ],
+      "roomPrice": 100
+    }
+  ]
+}
+ 
+14:03:13.722 [main] INFO  com.intuit.karate - [print] 1 
+14:03:48.897 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:03:50.108 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:03:51.262 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+14:03:52.191 [main] DEBUG com.intuit.karate - response time in milliseconds: 834
+1 < 200
+1 < Date: Sat, 15 Oct 2022 17:03:54 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4czf8eVcShfUKamGLYAiQmPRX1gKTqbl%2F9L1YSoDYDpygCGFEJug%2FNHZto8Gsc24Jdhfk3TBwS7BQOIY%2Bfb517xGc1hp1yAsnXdC1dpdy36dJn7fXWzYD428%2BjPkgXLZcGd1wM3mRkFSnuYJJA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75aa2179399f6de0-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=bcwQZELFhGqEutRY; Domain=automationintesting.online
+
+
+14:03:52.256 [main] INFO  com.intuit.karate - [print] [
+  "token=bcwQZELFhGqEutRY; Domain=automationintesting.online"
+]
+ 
+14:03:52.297 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Cookie: token=bcwQZELFhGqEutRY
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:03:53.022 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Cookie: token=bcwQZELFhGqEutRY
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:03:53.381 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Cookie: token=bcwQZELFhGqEutRY
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:03:53.667 [main] DEBUG com.intuit.karate - response time in milliseconds: 285
+4 < 200
+4 < Date: Sat, 15 Oct 2022 17:03:55 GMT
+4 < Content-Type: application/json
+4 < Transfer-Encoding: chunked
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PVrsaw%2BQOR7WHHv1dp5BKv5dmTsQqdAmGgXYHXOeUalR1FmwRgelpq89MPIX0%2B3zXx3NziYRXqAWVv2%2B3zCltkZemKkZM%2F6ZKcOWhYxtWIpXqVWyFadR2h8kIloHM%2BGaPyRdO8LFLrVqQkuVFw%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75aa2183b8b9b3d7-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+
+14:03:53.672 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:23
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 285, url: https://automationintesting.online/booking, response: 
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+classpath:homework07/postRequest.feature:23
+14:05:14.585 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:05:15.697 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:05:16.162 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+14:05:17.021 [main] DEBUG com.intuit.karate - response time in milliseconds: 849
+1 < 200
+1 < Date: Sat, 15 Oct 2022 17:05:18 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AZyw254I%2FST07XpWw8v%2F%2FVPBe4sBn1s5cpcf2ajwQ%2F2dpsnNSvJceQxb%2FVs%2FnV%2FmgJl%2FHOQY85Z3QIsmiCULC8PeFYLMNX343Tvj3IT74lYa8GW8ui4KxaGNGH%2Fu7FrRLeBvpztgn82CTBcpHg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75aa238bdd77b3c5-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=gIw4HodZj3LuCHav; Domain=automationintesting.online
+
+
+14:05:17.035 [main] INFO  com.intuit.karate - [print] [
+  "token=gIw4HodZj3LuCHav; Domain=automationintesting.online"
+]
+ 
+14:05:17.040 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Cookie: token=gIw4HodZj3LuCHav
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:05:17.752 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Cookie: token=gIw4HodZj3LuCHav
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:05:18.079 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Cookie: token=gIw4HodZj3LuCHav
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:05:18.355 [main] DEBUG com.intuit.karate - response time in milliseconds: 276
+4 < 200
+4 < Date: Sat, 15 Oct 2022 17:05:20 GMT
+4 < Content-Type: application/json
+4 < Transfer-Encoding: chunked
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fJWWJSd7qreRXemk9ngeQyNN0DjdaPd3YktX6CgJyQS34%2FvntW%2B9XaO2Mkd013u54VOyDMZmCWwSCZlbnrbyrN669V07h%2FtdA8PFOZxZdm0DFVlubfI0bo6tUceuRjTMZ%2BAG7BIwolSHBDHCeA%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75aa23952b36097d-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+
+14:05:18.358 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:24
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 276, url: https://automationintesting.online/booking, response: 
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+classpath:homework07/postRequest.feature:24
+14:08:53.343 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:08:54.602 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:08:55.174 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+14:08:56.059 [main] DEBUG com.intuit.karate - response time in milliseconds: 876
+1 < 200
+1 < Date: Sat, 15 Oct 2022 17:08:58 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eKgl3ldvUxRks3FJAjPnDXzI5Ziu4gu3nNeytMn4t4ZoeHaG913KekhcIvchnOnhj1jvJI5%2BGfCu4ywOix0QP5RbtAj7VYg6KitJ%2Bo%2BbF3EuDgiJmt%2Fis7Wyb1HjReUXe1kXFhhm7asxomnm0g%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75aa28e50ccbda8b-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=JHt49tHeFxPiBrH4; Domain=automationintesting.online
+
+
+14:08:56.078 [main] INFO  com.intuit.karate - [print] [
+  "token=JHt49tHeFxPiBrH4; Domain=automationintesting.online"
+]
+ 
+14:08:56.091 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:08:56.803 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:08:57.099 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:08:57.380 [main] DEBUG com.intuit.karate - response time in milliseconds: 280
+4 < 403
+4 < Date: Sat, 15 Oct 2022 17:08:59 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=C3OgPB4sXDCZb5AkOasSZ3WD95IXunImUBN11U5tvS%2FmIq0S%2Fb0oVcFJNHeZDYqy49DEfJrc7qbbgte1I1TiVKjxNsX5UiguPQfchspyvCYAHsy5dOWKrdJmcHXglwivXNXpBDd755grd28n9g%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75aa28ee18d96dbb-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+
+14:08:57.382 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:24
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 280, url: https://automationintesting.online/booking, response: 
+
+classpath:homework07/postRequest.feature:24
+14:10:08.362 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:10:09.505 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:10:09.956 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+14:10:10.823 [main] DEBUG com.intuit.karate - response time in milliseconds: 857
+1 < 200
+1 < Date: Sat, 15 Oct 2022 17:10:12 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gNCOLslX5XZ2AYzjgkMVm6KfvwhohlLXRw1ySxH0q56OqdNUPQfRn9PPosN8Tl3nY49%2FTu%2FzPYNF7%2F2EzvpASDF%2BWUQUM5Skcjjy%2FZ8Fp11jdBEFgAyCgUwAxR7G6EFPGJb50Gx9WbDjjFoZJg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75aa2ab84fdadab5-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=htZXiQxfwc3mCNiP; Domain=automationintesting.online
+
+
+14:10:10.846 [main] INFO  com.intuit.karate - [print] [
+  "token=htZXiQxfwc3mCNiP; Domain=automationintesting.online"
+]
+ 
+14:10:10.851 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Cookie: token=htZXiQxfwc3mCNiP
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:10:11.551 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Cookie: token=htZXiQxfwc3mCNiP
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:10:11.868 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Cookie: token=htZXiQxfwc3mCNiP
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:10:12.158 [main] DEBUG com.intuit.karate - response time in milliseconds: 289
+4 < 200
+4 < Date: Sat, 15 Oct 2022 17:10:14 GMT
+4 < Content-Type: application/json
+4 < Transfer-Encoding: chunked
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BN1uIECSEBaCMRDLcsHGy7I0WZIIisioGq8l%2Fou38zXD4bKYrL%2BhjzsNNfbWmBrFYxqsgHzaP5t4mRGBP%2FudRdGAXfMa6%2FWzygTVqhypsD8Pg9SuFreP6ZG%2F%2BvygmZLYQwFl4OWXMCMOiapjzQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75aa2ac17a136dd4-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+
+14:10:12.160 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:24
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 289, url: https://automationintesting.online/booking, response: 
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+classpath:homework07/postRequest.feature:24
+14:13:50.053 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:13:51.129 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:13:51.720 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:19
+* def getToken = call read(getToken.feature)
+js failed:
+>>>>
+01: read(getToken.feature)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "getToken" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:homework07/postRequest.feature:19
+14:16:08.171 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:16:09.506 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:16:10.049 [main] DEBUG com.intuit.karate - request:
+1 > POST https://automationintesting.online/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+14:16:10.911 [main] DEBUG com.intuit.karate - response time in milliseconds: 852
+1 < 200
+1 < Date: Sat, 15 Oct 2022 17:16:12 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iv1g9MsKhaaXhV%2FePSl3ZjOK5OmORdCwxVryfZ0kTEO5H5y8274AGCLYAZcXsUyR%2BIB%2FGGkLZUUw8WaoWSSk7sWhg4WKBYUVKRqaGhwfkc7wEmARP%2FCdgrcTixjJ9eIBuoa2s%2F%2FBGqGQW6WbYw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 75aa3382fe1b9abf-MIA
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < Set-Cookie: token=auNxSq6gt5HkXAAM; Domain=automationintesting.online
+
+
+14:16:10.928 [main] INFO  com.intuit.karate - [print] [
+  "token=auNxSq6gt5HkXAAM; Domain=automationintesting.online"
+]
+ 
+14:16:10.934 [main] DEBUG com.intuit.karate - request:
+2 > POST https://automationintesting.online/booking
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 152
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:16:11.628 [main] DEBUG com.intuit.karate - request:
+3 > POST https://automationintesting.online/booking
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:16:11.973 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/booking
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:16:12.244 [main] DEBUG com.intuit.karate - response time in milliseconds: 270
+4 < 403
+4 < Date: Sat, 15 Oct 2022 17:16:14 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0Bx5WeiqPyK48m6JdMe2W%2FjxT96EYWKYrgt7SESCg4drRzYymk1xlIjfx2efNrvqZahnr92UTYR76edpJoChxqa7%2Feapzy%2BnMxvp%2FzMQ58eDGlJJxcW060dLYpnlU4XFWmNOtHx6V5NyBVxEtw%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75aa338c390bdaa3-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+
+14:16:12.246 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:26
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 270, url: https://automationintesting.online/booking, response: 
+
+classpath:homework07/postRequest.feature:26
+14:52:30.843 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:53:48.211 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:54:00.473 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:54:01.350 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:54:02.516 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+14:54:02.848 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+14:54:03.143 [main] DEBUG com.intuit.karate - response time in milliseconds: 271
+3 < 200
+3 < Date: Sat, 15 Oct 2022 17:54:05 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eoCchi2y3t1JFBNnAiTmF0kNHwXOUUVnaloB3Nm37JzhdDL2VfdZCnQEYxBUDLtI4371WRG4s%2BTg5XRDEWqsBHkHRMgNpsMvMr126dKht4EfbqI7WqMCdhk4ofSnl9tw9ys0%2FDBwQBjn7VCBRQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 75aa6afdee3b02ba-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+14:54:03.215 [main] INFO  com.intuit.karate - [print] {
+  "rooms": [
+    {
+      "roomid": 1,
+      "roomName": "101",
+      "type": "single",
+      "accessible": true,
+      "image": "https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg",
+      "description": "Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.",
+      "features": [
+        "TV",
+        "WiFi",
+        "Safe"
+      ],
+      "roomPrice": 100
+    }
+  ]
+}
+ 
+14:54:03.225 [main] INFO  com.intuit.karate - [print] 1 
+14:54:03.498 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/auth/login
+4 > Content-Type: application/json; charset=UTF-8
+4 > Content-Length: 42
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+14:54:04.208 [main] DEBUG com.intuit.karate - response time in milliseconds: 688
+4 < 200
+4 < Date: Sat, 15 Oct 2022 17:54:06 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AWhob7KRVIOlHrDOVOSV%2FQNPWvv74qGFi5Zn9dPmEwhJbtQI47BnP0YBiuwbNjf2bTQXkgTc9skO2MA1lSecgOafxOo1Jkzvk55TZGaavCLefo%2BEBRfP%2FUQDqZ0NylqQFtdtWhF990gpUswnIw%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75aa6b03dc9d67ce-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+4 < Set-Cookie: token=9Gy1kJmecG0QQVkb; Domain=automationintesting.online
+
+
+14:54:04.243 [main] INFO  com.intuit.karate - [print] [
+  "token=9Gy1kJmecG0QQVkb; Domain=automationintesting.online"
+]
+ 
+14:54:04.252 [main] DEBUG com.intuit.karate - request:
+5 > POST https://automationintesting.online/booking
+5 > Cookie: token=9Gy1kJmecG0QQVkb
+5 > Content-Type: application/json; charset=UTF-8
+5 > Content-Length: 152
+5 > Host: automationintesting.online
+5 > Connection: Keep-Alive
+5 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+5 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:54:04.947 [main] DEBUG com.intuit.karate - request:
+6 > POST https://automationintesting.online/booking
+6 > Cookie: token=9Gy1kJmecG0QQVkb
+6 > Content-Type: application/json; charset=UTF-8
+6 > Host: automationintesting.online
+6 > Connection: Keep-Alive
+6 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+6 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:54:05.262 [main] DEBUG com.intuit.karate - request:
+7 > POST https://automationintesting.online/booking
+7 > Cookie: token=9Gy1kJmecG0QQVkb
+7 > Content-Type: application/json; charset=UTF-8
+7 > Host: automationintesting.online
+7 > Connection: Keep-Alive
+7 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+7 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2022-10-27","checkout":"2022-10-28"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+14:54:05.536 [main] DEBUG com.intuit.karate - response time in milliseconds: 274
+7 < 200
+7 < Date: Sat, 15 Oct 2022 17:54:07 GMT
+7 < Content-Type: application/json
+7 < Transfer-Encoding: chunked
+7 < Connection: keep-alive
+7 < CF-Cache-Status: DYNAMIC
+7 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DGGp3YTJosNl4KmUNuJ8RlUW2V5zAjlvzXO0YwImJuDxffyIudJH7klq6GiAmktgagagLj6DsDBClxiWCkOQtb9mDGaxbD3OUdrags%2BaFw88e30KnaKo5%2BolZ0jO2FXWBbNQdje9fbVYdQzRZQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+7 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+7 < Server: cloudflare
+7 < CF-RAY: 75aa6b0d081e8d94-MIA
+7 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+
+14:54:05.538 [main] ERROR com.intuit.karate - classpath:homework07/postRequest.feature:27
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 274, url: https://automationintesting.online/booking, response: 
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+classpath:homework07/postRequest.feature:27
+17:05:57.358 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:06:04.138 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:06:04.983 [main] ERROR com.intuit.karate - classpath:homework07/bookingParameters.feature:8
+* def getRoom = call read("getRequest.feature")
+js failed:
+>>>>
+01: read("getRequest.feature")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\Joaco\IdeaProjects\karate\target\test-classes\homework07\getRequest.feature (El sistema no puede encontrar el archivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.FeatureParser.parse(FeatureParser.java:70)
+- com.intuit.karate.core.Feature.read(Feature.java:67)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:67)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+classpath:homework07/bookingParameters.feature:8
+17:06:51.626 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:06:53.088 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:06:53.734 [main] DEBUG com.intuit.karate - request:
+1 > GET https://automationintesting.online/room
+1 > Accept: application/json
+1 > Host: automationintesting.online
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:06:55.020 [main] DEBUG com.intuit.karate - request:
+2 > GET https://automationintesting.online/room
+2 > Accept: application/json
+2 > Host: automationintesting.online
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+17:06:55.351 [main] DEBUG com.intuit.karate - request:
+3 > GET https://automationintesting.online/room
+3 > Accept: application/json
+3 > Host: automationintesting.online
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+3 > Accept-Encoding: gzip,deflate
+
+
+17:06:55.662 [main] DEBUG com.intuit.karate - response time in milliseconds: 281
+3 < 200
+3 < Date: Sat, 15 Oct 2022 20:06:58 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < CF-Cache-Status: DYNAMIC
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BshVMIuiYw1dc8z84CdHm7sSSFfN76DOtf7K9CEkjwGiVIjAIuuEuFsgJK0KJQ7r6ZKsGKW6cef3Gq6taZ0zU9TNsShuyD2tVz973OYX0dVw7sR2v%2Ba6QIO6I2upn1%2B0oU7eC50ZHTifqAb3yA%3D%3D"}],"group":"cf-nel","max_age":604800}
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < CF-RAY: 75ab2da4bfe2d9d1-MIA
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"rooms":[{"roomid":1,"roomName":"101","type":"single","accessible":true,"image":"https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg","description":"Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.","features":["TV","WiFi","Safe"],"roomPrice":100}]}
+
+17:06:55.731 [main] INFO  com.intuit.karate - [print] {
+  "rooms": [
+    {
+      "roomid": 1,
+      "roomName": "101",
+      "type": "single",
+      "accessible": true,
+      "image": "https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg",
+      "description": "Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.",
+      "features": [
+        "TV",
+        "WiFi",
+        "Safe"
+      ],
+      "roomPrice": 100
+    }
+  ]
+}
+ 
+17:06:55.744 [main] INFO  com.intuit.karate - [print] 1 
+17:06:55.973 [main] DEBUG com.intuit.karate - request:
+4 > POST https://automationintesting.online/auth/login
+4 > Content-Type: application/json; charset=UTF-8
+4 > Content-Length: 42
+4 > Host: automationintesting.online
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+4 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password"}
+
+17:06:56.735 [main] DEBUG com.intuit.karate - response time in milliseconds: 735
+4 < 200
+4 < Date: Sat, 15 Oct 2022 20:06:59 GMT
+4 < Content-Length: 0
+4 < Connection: keep-alive
+4 < CF-Cache-Status: DYNAMIC
+4 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FM2MCZPJ8c%2BIovb075%2FTj9EQQ6bSJsDADJoDX9Or7LZr0eo6l%2FsBXSknb9TH8CqhsnAsFPVB9tRaheLjOS4QM7Dzy%2B44ZcOqCu13rVNdVZPG3KxFvDIw1SUH%2Bl8njCSmBkOCu7GicrYSIMg03w%3D%3D"}],"group":"cf-nel","max_age":604800}
+4 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+4 < Server: cloudflare
+4 < CF-RAY: 75ab2daaaf5a21c1-MIA
+4 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+4 < Set-Cookie: token=A4jlb3RWpppWFctP; Domain=automationintesting.online
+
+
+17:06:56.764 [main] INFO  com.intuit.karate - [print] [
+  "token=A4jlb3RWpppWFctP; Domain=automationintesting.online"
+]
+ 
+17:06:56.773 [main] DEBUG com.intuit.karate - request:
+5 > POST https://automationintesting.online/booking
+5 > Cookie: token=A4jlb3RWpppWFctP
+5 > Content-Type: application/json; charset=UTF-8
+5 > Content-Length: 152
+5 > Host: automationintesting.online
+5 > Connection: Keep-Alive
+5 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+5 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2020-12-28","checkout":"2020-12-29"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+17:06:57.492 [main] DEBUG com.intuit.karate - request:
+6 > POST https://automationintesting.online/booking
+6 > Cookie: token=A4jlb3RWpppWFctP
+6 > Content-Type: application/json; charset=UTF-8
+6 > Host: automationintesting.online
+6 > Connection: Keep-Alive
+6 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+6 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2020-12-28","checkout":"2020-12-29"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+17:06:57.788 [main] DEBUG com.intuit.karate - request:
+7 > POST https://automationintesting.online/booking
+7 > Cookie: token=A4jlb3RWpppWFctP
+7 > Content-Type: application/json; charset=UTF-8
+7 > Host: automationintesting.online
+7 > Connection: Keep-Alive
+7 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.2)
+7 > Accept-Encoding: gzip,deflate
+{"bookingdates":{"checkin":"2020-12-28","checkout":"2020-12-29"},"depositpaid":true,"firstname":"joaquin","lastname":"mateos","roomid":1,"totalprice":0}
+
+17:06:58.067 [main] DEBUG com.intuit.karate - response time in milliseconds: 279
+7 < 200
+7 < Date: Sat, 15 Oct 2022 20:07:00 GMT
+7 < Content-Type: application/json
+7 < Transfer-Encoding: chunked
+7 < Connection: keep-alive
+7 < CF-Cache-Status: DYNAMIC
+7 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zZcCPlxdN2FrmX%2F80RGx98kdtSaKPMK4LiqZex%2FloXapPqUBPIZUMGerYzoKn%2FLBgwOxPd9Wf9GlCTLOI4Ivex5fGtD3d2isMuOxwTxoJ3PtH3kZt0TeVkOyW%2BgQ7wHT8xPvDpiHRHpXY%2FDoug%3D%3D"}],"group":"cf-nel","max_age":604800}
+7 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+7 < Server: cloudflare
+7 < CF-RAY: 75ab2db3ff3009fe-MIA
+7 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+
+17:06:58.069 [main] ERROR com.intuit.karate - classpath:homework07/bookingParameters.feature:27
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 279, url: https://automationintesting.online/booking, response: 
+{"bookings":[{"bookingid":1,"roomid":1,"firstname":"James","lastname":"Dean","depositpaid":true,"bookingdates":{"checkin":"2022-02-01","checkout":"2022-02-05"}}]}
+classpath:homework07/bookingParameters.feature:27

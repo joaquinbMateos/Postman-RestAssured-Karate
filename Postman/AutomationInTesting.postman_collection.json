@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "512d8eed-51cc-4394-bae8-d49fc5e34355",
+		"name": "AutomationInTesting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20683825"
+	},
+	"item": [
+		{
+			"name": "getUrl",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"let jsonData= pm.response.json();\r",
+							"pm.environment.set(\"roomid\", jsonData.rooms[0].roomid);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/room",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"room"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"postman.setGlobalVariable(\"refresh_token\",postman.getResponseHeader(\"Set-Cookie\") );"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n\"username\": \"admin\", \r\n\"password\": \"password\" \r\n}  ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/auth/login",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "booking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"console.log(pm.request)\r",
+							"pm.test(\"Status code is 201\", function () {\r",
+							"  pm.response.to.have.status(201);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n\"bookingdates\": {  \r\n\"checkin\": \"2022-11-28\", \r\n\"checkout\": \"2022-11-29\" \r\n} , \r\n\r\n\"depositpaid\": true, \r\n\"firstname\": \"joaquin\", \r\n\"lastname\": \"mateos\", \r\n\"roomid\": {{roomid}}, \r\n\"totalprice\":0\r\n}  ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/booking/",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"booking",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUrl Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"let jsonData= pm.response.json();\r",
+							"pm.environment.set(\"roomid\", jsonData.rooms[0].roomid);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/room",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"room"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "booking param",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {\r",
+							"  pm.response.to.have.status(201);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n\"bookingdates\": {  \r\n\"checkin\": \"{{inDate}}\", \r\n\"checkout\": \"{{outDate}}\" \r\n} , \r\n\r\n\"depositpaid\": true, \r\n\"firstname\": \"{{firstName}}\", \r\n\"lastname\": \"{{lastName}}\", \r\n\"roomid\": {{roomid}}, \r\n\"totalprice\":0\r\n}    ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/booking/",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"booking",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

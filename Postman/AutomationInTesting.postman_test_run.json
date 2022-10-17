@@ -1,0 +1,146 @@
+{
+	"id": "f51e65aa-f3df-4673-9244-5cac832130c7",
+	"name": "AutomationInTesting",
+	"timestamp": "2022-10-17T11:48:25.504Z",
+	"collection_id": "20683825-512d8eed-51cc-4394-bae8-d49fc5e34355",
+	"folder_id": 0,
+	"environment_id": "20683825-6a000e3b-93ab-4e78-bed3-5fa77b9ebd50",
+	"totalPass": 2,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e5da43d3-9261-43d3-97dd-330e972827ed",
+			"name": "getUrl",
+			"url": "https://automationintesting.online/room",
+			"time": 354,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				354
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e9e25029-579d-40e8-931e-0eaca824295a",
+			"name": "token",
+			"url": "https://automationintesting.online/auth/login",
+			"time": 282,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				282
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2161a578-fb03-422d-bf73-8c72dc2dca47",
+			"name": "booking",
+			"url": "https://automationintesting.online/booking/",
+			"time": 278,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				278
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "3f10c1b2-b944-4aa0-a7bb-d5c4d1697401",
+			"name": "getUrl Copy",
+			"url": "https://automationintesting.online/room",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				279
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4d8c3cbf-7557-46e7-8ea7-96f90cd9c408",
+			"name": "booking param",
+			"url": "https://automationintesting.online/booking/",
+			"time": 282,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1475,
+	"collection": {
+		"requests": [
+			{
+				"id": "e5da43d3-9261-43d3-97dd-330e972827ed",
+				"method": "GET"
+			},
+			{
+				"id": "e9e25029-579d-40e8-931e-0eaca824295a",
+				"method": "POST"
+			},
+			{
+				"id": "2161a578-fb03-422d-bf73-8c72dc2dca47",
+				"method": "POST"
+			},
+			{
+				"id": "3f10c1b2-b944-4aa0-a7bb-d5c4d1697401",
+				"method": "GET"
+			},
+			{
+				"id": "4d8c3cbf-7557-46e7-8ea7-96f90cd9c408",
+				"method": "POST"
+			}
+		]
+	}
+}
